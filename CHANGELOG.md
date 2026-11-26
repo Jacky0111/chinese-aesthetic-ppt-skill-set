@@ -2,7 +2,7 @@
 
 Versions follow [Semantic Versioning](https://semver.org/). Interfaces may still change during 0.x. The Chinese and English repositories share one version.
 
-## [0.2.0] - Unreleased
+## [0.2.0] - 2026-11-26
 
 ### Added
 
