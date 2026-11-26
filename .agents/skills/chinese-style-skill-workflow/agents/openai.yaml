@@ -1,0 +1,5 @@
+interface:
+  display_name: "Chinese Aesthetic Style Intake Workflow"
+  short_description: "Research, preview, review, and build bilingual style Skills"
+  brand_color: "#245071"
+  default_prompt: "Start a new style with $chinese-style-skill-workflow: <style name>."

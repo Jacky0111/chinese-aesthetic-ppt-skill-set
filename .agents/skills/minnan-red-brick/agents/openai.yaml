@@ -1,0 +1,5 @@
+interface:
+  display_name: "Minnan Red Brick PPT Design"
+  short_description: "Integrate brick texture and space into adaptive slide layouts"
+  brand_color: "#A74432"
+  default_prompt: "Use $minnan-red-brick to design a content-adaptive presentation inspired by Minnan red-brick architecture."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Huizhou Architecture PPT Design"
+  short_description: "Design flexible slides with spatial depth, grayscale materials, and light"
+  brand_color: "#555453"
+  default_prompt: "Use $huizhou-architecture to design a content-adaptive presentation inspired by Huizhou architectural space."

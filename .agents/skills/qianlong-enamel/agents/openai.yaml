@@ -1,0 +1,5 @@
+interface:
+  display_name: "Qianlong Enamel Slide Design"
+  short_description: "Create refined slides with pink and turquoise enamel tones"
+  brand_color: "#B66E78"
+  default_prompt: "Use $qianlong-enamel to design content-adaptive slides inspired by Qianlong enamel aesthetics."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Guan Ware Ice Crackle Slides"
+  short_description: "Content-led slides with powder celadon and ice-crackle texture"
+  brand_color: "#8CA9A6"
+  default_prompt: "Use $guan-ice-crackle to design content-led slides in the Guan ware ice-crackle style."

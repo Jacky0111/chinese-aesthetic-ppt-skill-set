@@ -1,0 +1,5 @@
+interface:
+  display_name: "Jun Ware Kiln Transformation Slides"
+  short_description: "Content-led slides with flowing blue and purple-red glaze"
+  brand_color: "#645080"
+  default_prompt: "Use $junyao-kiln-transformation to design content-led slides in the Jun ware kiln-transformation style."

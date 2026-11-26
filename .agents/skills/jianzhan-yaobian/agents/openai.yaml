@@ -1,0 +1,5 @@
+interface:
+  display_name: "Jian Ware Yaobian Slides"
+  short_description: "Content-led slides with dark iridescent glaze language"
+  brand_color: "#182A54"
+  default_prompt: "Use $jianzhan-yaobian to design content-led slides in the Jian ware Yaobian style."

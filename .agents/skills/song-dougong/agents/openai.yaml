@@ -1,0 +1,5 @@
+interface:
+  display_name: "Song-Style Dougong Slide Design"
+  short_description: "Build flexible slides with Song dougong rhythm and material depth"
+  brand_color: "#6A4936"
+  default_prompt: "Use $song-dougong to design a content-adaptive presentation inspired by Song-style dougong."

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tang Timber Architecture PPT Design"
+  short_description: "Design flexible slides with timber grain, cinnabar, and earth tones"
+  brand_color: "#542D19"
+  default_prompt: "Use $tang-timber-architecture to design a content-adaptive presentation inspired by Tang timber architecture."

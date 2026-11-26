@@ -1,0 +1,5 @@
+interface:
+  display_name: "Palace Caisson PPT Design"
+  short_description: "Design flexible slides with mineral blue-green and aged painted textures"
+  brand_color: "#526B72"
+  default_prompt: "Use $palace-caisson to design a content-adaptive presentation inspired by palace caisson aesthetics."

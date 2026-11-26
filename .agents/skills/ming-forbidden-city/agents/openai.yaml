@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ming Forbidden City Slide Design"
+  short_description: "Design flexible slides with cinnabar, gold, and wall light"
+  brand_color: "#9E281B"
+  default_prompt: "Use $ming-forbidden-city to design a content-adaptive presentation inspired by Ming Forbidden City architecture."

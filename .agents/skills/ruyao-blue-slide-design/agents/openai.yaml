@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ruyao Sky Blue Slides"
+  short_description: "Content-led slides with Ruyao celadon, fine crackle, and blue accents"
+  brand_color: "#245071"
+  default_prompt: "Use $ruyao-blue-slide-design to create or revise content-led slides in the Ruyao sky-blue style."

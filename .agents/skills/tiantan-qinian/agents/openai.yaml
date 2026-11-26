@@ -1,0 +1,5 @@
+interface:
+  display_name: "Temple of Heaven Qinian PPT Design"
+  short_description: "Create serene, layered slides in sapphire, cinnabar, and gilt"
+  brand_color: "#173B70"
+  default_prompt: "Use $tiantan-qinian to design a content-adaptive presentation inspired by the Temple of Heaven."

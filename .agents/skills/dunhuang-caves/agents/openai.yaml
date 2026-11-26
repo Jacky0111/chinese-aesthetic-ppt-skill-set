@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dunhuang Caves PPT Design"
+  short_description: "Design flexible slides with mineral layers, mural texture, and spatial depth"
+  brand_color: "#A65037"
+  default_prompt: "Use $dunhuang-caves to design a content-adaptive presentation inspired by Dunhuang cave art."
