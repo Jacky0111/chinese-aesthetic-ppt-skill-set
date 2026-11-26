@@ -5,13 +5,13 @@ description: Start the full research, brainstorming, five-slide preview, human-r
 
 # Chinese Aesthetic Style Intake Workflow
 
-Use this workflow when the user names a new Chinese aesthetic style and wants to explore or create its presentation-design Skill. A style name alone is enough to begin: investigate its context, propose a direction, generate five previews, and submit them for review. Do not ask the user to restate requirements already defined here unless something material is missing.
+Use this workflow when the user names a new Chinese aesthetic style and wants to explore or create its presentation-design Skill. A style name alone is enough to begin: investigate its context, propose a direction, generate five previews, and submit them for review. Unless the user asks, do not have them restate requirements already defined here.
 
 ## Non-negotiable boundaries
 
 - **Human review is a required implementation gate.** On the first run, complete research, proposal, and five previews; present them and wait for explicit user approval. Silence, continued discussion, or “continue” without approval of the visual direction is not approval. Do not create a formal `SKILL.md`, archive assets as approved references, or update release catalogs before approval.
 - Proceed only after the user clearly approves the current preview direction. If the user approves in a later turn, resume implementation without asking again.
-- Unify reusable visual language and design principles, not page templates. Content determines layout, components, aspect ratio, and information density.
+- Unify reusable visual language and design principles, not page templates. Content determines layout, components, proportions, and information density; the preview count and the cover, content, and ending roles follow this workflow.
 - Reference images explain color, material, texture, gloss, hierarchy, and visual rhythm. Do not reproduce a whole composition or its copy. Ceramic styles do not require literal ceramic objects by default.
 - Chinese-aesthetic design seeks resemblance in spirit, not literal form. Extract tone, material, abstract texture, gloss, density, whitespace, line rhythm, and artistic character, then express them through modern layout. Do not copy flowers, dragons, landscapes, or other figurative decoration from an artifact into slides merely because it appears on the object. Use a literal motif only when the user’s content discusses it or it is necessary to explain the subject, and cite its source.
 - Record provenance and rights status for historical claims, palettes, and assets. Use relative paths; never depend on personal-machine paths.
@@ -59,9 +59,9 @@ Review each image for text accuracy, historical boundaries, presence of a cover 
 Only after approval:
 
 1. Choose a stable machine-readable English kebab-case ID. Create Chinese and English export packages using the proven Ruyao layout: `.agents/skills/<skill-id>/SKILL.md`, `agents/openai.yaml`, and `assets/README.md`; add `assets/examples/` and `references/` only when needed.
-2. Keep `SKILL.md` concise. Define when it applies, its distinct visual language, adaptive composition rules, how to consult references, and the boundary against copying example layouts. Preserve content-led design and style consistency without template repetition.
+2. Keep `SKILL.md` concise. Define when it applies, its distinct visual language, adaptive composition rules, how to consult references, and the boundary against copying example layouts. Preserve content-led design and style consistency without template repetition. End each package's `SKILL.md` with the multilingual section for that language, unchanged: `references/multilingual-section.zh-CN.md` for the Chinese package and `references/multilingual-section.en.md` for the English one.
 3. Copy only reviewed and approved previews into `assets/examples/`. Record purpose, provenance/generation method, review and rights status, and usage limits. For source images, record attribution and permission. Mark unclear rights as `local-only` or `review-required`; never imply public clearance.
-4. Use paths relative to the Skill directory. Update the language-neutral catalog, classification, version, and relevant Chinese and English READMEs. Keep stable IDs, versions, functionality, file structure, and binary assets aligned; professionally localize prose in each language.
+4. Use paths relative to the Skill directory. Following the contribution guide, update `VERSION`, `catalog/`, classification, the README header and version tables, and `CHANGELOG.md`; when multilingual rules change, update every skill, `DESIGN-PRINCIPLES.md`, and both section files. Keep stable IDs, versions, functionality, file structure, and binary assets aligned; professionally localize prose in each language.
 5. Update the installer/catalog and asset indexes as needed. Remove duplicate temporary previews after formal archival; preserve source snapshots that have a distinct comparison purpose.
 
 ### 6. Validate cloning, invocation, and release gates
@@ -73,3 +73,17 @@ Update the catalog, asset index, bilingual README, contribution docs, or release
 ## Completion report
 
 Briefly report research conclusions and uncertainties, recommended visual direction, preview location or formal package paths, review status, synchronization and validation results, and any asset or repository decisions that still block public release. Before approval, state clearly that the work remains in preview and no formal Skill has been created.
+
+## Multilingual output
+
+This section takes precedence over any other statement in this skill about language, typefaces, or reading direction.
+
+- **Instruction language is not output language:** This file is written in English; it does not set the language of the presentation.
+- **Choosing the output language automatically:** Follow the user's explicit choice. Otherwise infer it from the language and intent of the current input (slide content, request wording, context). No language is fixed, and neither the repository nor the instruction language is a default. Any language and mixed-language content are in scope.
+- **Preserve the user's wording:** Never translate, rewrite, convert between Simplified and Traditional Chinese, or transliterate supplied content on your own initiative, including names, quotations, code, numbers, and units. Translate only when explicitly asked. If the requested output language differs from the supplied text and translation was not mentioned, no fixed follow-up question is needed: decide the language of newly written text from the user's input and keep the supplied text as it is.
+- **Fit layout to the text:** Adjust type hierarchy, line breaks, columns, and slide count to actual text length. Do not force content in by shrinking it past legibility or clipping it.
+- **Font coverage:** Use an available font that covers the target script, with no missing or invented glyphs. Where this skill names Song-style or sans-serif character, pick a serif or sans-serif of similar character for other scripts.
+- **Reading direction:** For right-to-left scripts such as Arabic and Hebrew, mirror alignment, reading order, timelines, and process flow, keeping numbers, Latin words, and punctuation correct in mixed text. Use vertical setting only when the script supports it and the content calls for it.
+- **Scope:** This section governs presentation content and layout. Layout advice, including calls for short captions, does not authorize cutting or condensing the user's wording. If supplied text conflicts with checkable history or this skill's historical boundaries, point it out and change it only after the user confirms.
+- **Change the language, keep the style:** Preserve this skill's color, material, texture, gloss, depth, character, and atmosphere. Chinese text in example images is sample text: do not copy it or treat it as the default language.
+- **Check before delivery:** Look for missing glyphs, misspellings, broken lines, punctuation, and direction errors. If image generation cannot render a script reliably, use editable text layers; if that is not possible, tell the user.

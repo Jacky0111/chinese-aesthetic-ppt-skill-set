@@ -1,8 +1,20 @@
-# Chinese Aesthetic PPT Design Skill Set
+<p align="center">
+  <img src="assets/banner.png" alt="Chinese Aesthetic PPT Design Skill Set: one design language, no fixed page templates. Ceramics, architecture, cave art, 13 styles" width="100%">
+</p>
 
-**One design language, no fixed page templates.**
+<p align="center"><b>Language:</b> <a href="https://github.com/Jacky0111/zhonghua-guofeng-ppt-skills">简体中文</a> | English</p>
 
-[中文版](https://github.com/Jacky0111/zhonghua-guofeng-ppt-skills) · Author: Jacky0111
+<p align="center">
+  <a href="#styles"><img src="https://img.shields.io/badge/Browse_styles-13_Chinese_aesthetics-8C2A22?style=for-the-badge&labelColor=F3EEE6" alt="Browse styles: 13 Chinese aesthetics"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-5B8C7B?style=for-the-badge&labelColor=555555" alt="Code license: MIT"></a>
+  <a href="LICENSE-CONTENT.md"><img src="https://img.shields.io/badge/Content-CC_BY_4.0-B8863B?style=for-the-badge&labelColor=555555" alt="Content license: CC BY 4.0"></a>
+  <a href="https://github.com/Jacky0111/chinese-aesthetic-ppt-skill-set/stargazers"><img src="https://img.shields.io/github/stars/Jacky0111/chinese-aesthetic-ppt-skill-set?style=for-the-badge&color=8C2A22" alt="GitHub stars"></a>
+</p>
+
+<p align="center">Author: Jacky0111 · Version <code>0.2.0</code> (<a href="CHANGELOG.md">changelog</a>)</p>
 
 Color, material, texture, gloss, and spatial order drawn from Chinese ceramics, classical architecture, and cave art, translated into content-driven contemporary presentation design. Includes 13 style skills and 1 workflow for adding new styles. Example slides contain Chinese text.
 
@@ -38,19 +50,19 @@ The images below are AI-generated modern design illustrations, not historical im
 
 | Stable ID | Style | Classification | Version |
 |---|---|---|---|
-| `ruyao-blue-slide-design` | Ruyao Sky Blue | Ceramics / Ruyao | `0.1.0` |
-| `guan-ice-crackle` | Guan Ware Ice Crackle | Ceramics / Guan ware | `0.1.0` |
-| `junyao-kiln-transformation` | Jun Ware Kiln Transformation | Ceramics / Jun ware | `0.1.0` |
-| `jianzhan-yaobian` | Jian Ware Yaobian | Ceramics / Jian ware | `0.1.0` |
-| `qianlong-enamel` | Qianlong Enamel | Ceramics / Qianlong enamel | `0.1.0` |
-| `ming-forbidden-city` | Ming Forbidden City | Architecture / Palace / Ming | `0.1.0` |
-| `tiantan-qinian` | Temple of Heaven Qinian | Architecture / Ritual / Temple of Heaven | `0.1.0` |
-| `palace-caisson` | Palace Caisson | Architecture / Palace / Caisson | `0.1.0` |
-| `tang-timber-architecture` | Tang Timber Architecture | Architecture / Timber / Tang | `0.1.0` |
-| `song-dougong` | Song-Style Dougong | Architecture / Timber / Song | `0.1.0` |
-| `huizhou-architecture` | Huizhou Architecture | Architecture / Regional / Huizhou | `0.1.0` |
-| `dunhuang-caves` | Dunhuang Caves | Art / Mural / Dunhuang | `0.1.0` |
-| `minnan-red-brick` | Minnan Red Brick Architecture | Architecture / Regional / Minnan | `0.1.0` |
+| `ruyao-blue-slide-design` | Ruyao Sky Blue | Ceramics / Ruyao | `0.2.0` |
+| `guan-ice-crackle` | Guan Ware Ice Crackle | Ceramics / Guan ware | `0.2.0` |
+| `junyao-kiln-transformation` | Jun Ware Kiln Transformation | Ceramics / Jun ware | `0.2.0` |
+| `jianzhan-yaobian` | Jian Ware Yaobian | Ceramics / Jian ware | `0.2.0` |
+| `qianlong-enamel` | Qianlong Enamel | Ceramics / Qianlong enamel | `0.2.0` |
+| `ming-forbidden-city` | Ming Forbidden City | Architecture / Palace / Ming | `0.2.0` |
+| `tiantan-qinian` | Temple of Heaven Qinian | Architecture / Ritual / Temple of Heaven | `0.2.0` |
+| `palace-caisson` | Palace Caisson | Architecture / Palace / Caisson | `0.2.0` |
+| `tang-timber-architecture` | Tang Timber Architecture | Architecture / Timber / Tang | `0.2.0` |
+| `song-dougong` | Song-Style Dougong | Architecture / Timber / Song | `0.2.0` |
+| `huizhou-architecture` | Huizhou Architecture | Architecture / Regional / Huizhou | `0.2.0` |
+| `dunhuang-caves` | Dunhuang Caves | Art / Mural / Dunhuang | `0.2.0` |
+| `minnan-red-brick` | Minnan Red Brick Architecture | Architecture / Regional / Minnan | `0.2.0` |
 
 Workflow: `chinese-style-skill-workflow` (research, design proposal, five previews, human review, bilingual implementation).
 
@@ -66,24 +78,58 @@ Skills live in `.agents/skills/<skill-id>/`. Tools that read this folder discove
 ./install.sh ruyao-blue-slide-design
 ```
 
-Claude Code uses its own folder:
+Claude Code and some other tools use their own folders. Choose one with `--platform`; add `--project <directory>` to install into a project instead:
 
 ```bash
-./install.sh ruyao-blue-slide-design ~/.claude/skills
+./install.sh --platform claude ruyao-blue-slide-design
 ```
+
+| `--platform` | User level | Project level |
+|---|---|---|
+| `agents` (default), `codex`, `copilot`, `opencode`, `kimi`, `openclaw` | `~/.agents/skills` | `.agents/skills` |
+| `claude` | `~/.claude/skills` (honors `CLAUDE_CONFIG_DIR`) | `.claude/skills` |
+| `hermes` | `~/.hermes/skills` | `.agents/skills`; run `hermes skills trust` yourself |
+| `grok` | `~/.grok/skills` | `.grok/skills` |
+
+If the same skill is installed at both user and project level, Codex CLI 0.135.0 was observed to list both. The original form `./install.sh <skill-id> <target directory>` still works.
+
+### Doubao
+
+The Doubao open platform takes skills as ZIP uploads. The packaging script needs `cwebp` and `dwebp` from libwebp:
+
+```bash
+python3 tooling/package_doubao.py ruyao-blue-slide-design
+```
+
+Without an argument it packages all 13 style skills into `dist/doubao/` (the workflow skill is not packaged). Only the packaged copy is changed: images are scaled to 1280 px wide, display metadata is added, and size limits are checked. The Doubao specification requires skill names to be unique across the platform and both editions share the same IDs, so we suggest uploading only the [Chinese edition](https://github.com/Jacky0111/zhonghua-guofeng-ppt-skills). Uploading has not been tested.
 
 ## Platform compatibility
 
-**No platform has been tested end to end.** This table reflects a documentation check of folder conventions on 2026-11-26.
+**No platform has been tested end to end.** Status as checked on 2026-11-26: "Tested" means observed on a local machine; "Documented" means stated in official documentation but not tested.
 
-| Tool | Folder convention | Status |
-|---|---|---|
-| Codex, Kimi Code, OpenClaw | `.agents/skills/` | Documented, untested |
-| Hermes Agent | `.agents/skills/`, project must be trusted | Documented, untested |
-| Claude Code | `.claude/skills/` | Install by copying, untested |
-| Others | See their documentation | Not checked |
+| Tool | Discovery | Invocation | Resource loading | Image / PPT generation |
+|---|---|---|---|---|
+| Codex CLI 0.135.0 | Tested | Documented | Untested | Untested |
+| Claude Code 2.1.304 | Tested (`.claude/skills`; does not read `.agents/skills`) | Tested: `/<skill-id>` loads the instructions | Untested | Untested |
+| GitHub Copilot, OpenCode | Documented | Documented | Documented, untested | Not checked |
+| Kimi Code | Documented | Documented | Documented (image reading not mentioned) | Not checked |
+| OpenClaw | Documented | Documented | Image reading unknown | Not checked |
+| Hermes Agent | Documented (trust the project first) | Documented | Image reading unknown | Not checked |
+| Grok | Documented (project level: only `.grok/skills` is documented) | Documented | Not checked | Not checked |
+| Doubao | Documented (ZIP on the open platform; files or folders in the client) | Documented | Documented (model image reading not checked) | Not checked |
+| DeepSeek (official guides present it as a model provider for other tools) | Not checked | Not checked | Not checked | Not checked |
 
 Skills provide design guidance; image generation and PPT file creation depend on your tool.
+
+## Multilingual output
+
+Every skill in both repositories is meant for presentations in any language; the repository language is only the language of instructions and documentation.
+
+- Output follows the language of your content by default, or the language you specify; mixed-language slides are supported.
+- Layout adapts to text length, font coverage, and reading direction (including right-to-left) while the style stays the same.
+- Your wording is not translated or rewritten unless you explicitly ask.
+
+Example: `Use $guan-ice-crackle to make a presentation in Spanish`. This support is defined in the skill instructions; actual rendering has not been tested per language and depends on your tool and fonts. Full rules: [Design principles](DESIGN-PRINCIPLES.md).
 
 ## Design principles
 
@@ -98,7 +144,7 @@ Code (`install.sh`, `tooling/`) is [MIT](LICENSE); everything else is [CC BY 4.0
 
 ## Contributing
 
-See [Contributing](CONTRIBUTING.md) and the [release checklist](RELEASE-CHECKLIST.md). Before submitting, run:
+See [Contributing](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.md), the [security policy](SECURITY.md), and the [release checklist](RELEASE-CHECKLIST.md). Before submitting, run:
 
 ```bash
 python3 tooling/validate.py

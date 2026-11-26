@@ -12,4 +12,3 @@ Pale sky celadon, fine crackle, soft glaze light, and deep-blue accents form a m
 ## Sources
 
 - [Palace Museum: Ruyao sky-blue glazed washer](https://www.dpm.org.cn/collection/ceramic/227122.html)
-- [Palace Museum: Ceramic collections](https://www.dpm.org.cn/)
