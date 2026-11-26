@@ -105,11 +105,11 @@ Without an argument it packages all 13 style skills into `dist/doubao/` (the wor
 
 ## Platform compatibility
 
-**No platform has been tested end to end.** Status as checked on 2026-11-26: "Tested" means observed on a local machine; "Documented" means stated in official documentation but not tested.
+**Only Codex has had a small end-to-end spot check (2 styles, 4 slide images); no other platform has.** Status as checked on 2026-11-26: "Tested" means observed on a local machine; "Documented" means stated in official documentation but not tested.
 
 | Tool | Discovery | Invocation | Resource loading | Image / PPT generation |
 |---|---|---|---|---|
-| Codex CLI 0.135.0 | Tested | Documented | Untested | Untested |
+| Codex | Tested (CLI 0.135.0) | Tested (0.171.0-alpha) | Tested: reads instructions and reference images | Slide images spot-checked; PPT files untested |
 | Claude Code 2.1.304 | Tested (`.claude/skills`; does not read `.agents/skills`) | Tested: `/<skill-id>` loads the instructions | Untested | Untested |
 | GitHub Copilot, OpenCode | Documented | Documented | Documented, untested | Not checked |
 | Kimi Code | Documented | Documented | Documented (image reading not mentioned) | Not checked |
@@ -129,7 +129,7 @@ Every skill in both repositories is meant for presentations in any language; the
 - Layout adapts to text length, font coverage, and reading direction (including right-to-left) while the style stays the same.
 - Your wording is not translated or rewritten unless you explicitly ask.
 
-Example: `Use $guan-ice-crackle to make a presentation in Spanish`. This support is defined in the skill instructions; actual rendering has not been tested per language and depends on your tool and fonts. Full rules: [Design principles](DESIGN-PRINCIPLES.md).
+Example: `Use $guan-ice-crackle to make a presentation in Spanish`. Only one slide image each in Chinese, Spanish, Arabic, and mixed Chinese-English has been spot-checked on Codex; other languages and tools are untested. Results depend on your tool and fonts, so proofread before delivery. Full rules: [Design principles](DESIGN-PRINCIPLES.md).
 
 ## Design principles
 
