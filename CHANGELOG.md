@@ -2,6 +2,17 @@
 
 Versions follow [Semantic Versioning](https://semver.org/). Interfaces may still change during 0.x. The Chinese and English repositories share one version.
 
+## [0.2.1] - 2026-11-26
+
+### Changed
+
+- Skills are now versioned independently. To reflect earlier revision rounds: Ruyao Sky Blue `2.7.0`, Jian Ware Yaobian `2.1.0`, Ming Forbidden City `2.5.0`, Temple of Heaven Qinian `2.1.0`, Tang Timber Architecture `2.2.0`.
+
+### Fixed
+
+- Multilingual rules now require supplied text character for character, punctuation included, checked against the rendered image before delivery.
+- The Huizhou skill adds a framing boundary: no whole building or full courtyard scene, and a black, white, and gray palette throughout.
+
 ## [0.2.0] - 2026-11-26
 
 ### Added

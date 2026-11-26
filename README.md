@@ -14,7 +14,7 @@
   <a href="https://github.com/Jacky0111/chinese-aesthetic-ppt-skill-set/stargazers"><img src="https://img.shields.io/github/stars/Jacky0111/chinese-aesthetic-ppt-skill-set?style=for-the-badge&color=8C2A22" alt="GitHub stars"></a>
 </p>
 
-<p align="center">Author: Jacky0111 · Version <code>0.2.0</code> (<a href="CHANGELOG.md">changelog</a>)</p>
+<p align="center">Author: Jacky0111 · Version <code>0.2.1</code> (<a href="CHANGELOG.md">changelog</a>)</p>
 
 Color, material, texture, gloss, and spatial order drawn from Chinese ceramics, classical architecture, and cave art, translated into content-driven contemporary presentation design. Includes 13 style skills and 1 workflow for adding new styles. Example slides contain Chinese text.
 
@@ -50,19 +50,19 @@ The images below are AI-generated modern design illustrations, not historical im
 
 | Stable ID | Style | Classification | Version |
 |---|---|---|---|
-| `ruyao-blue-slide-design` | Ruyao Sky Blue | Ceramics / Ruyao | `0.2.0` |
-| `guan-ice-crackle` | Guan Ware Ice Crackle | Ceramics / Guan ware | `0.2.0` |
-| `junyao-kiln-transformation` | Jun Ware Kiln Transformation | Ceramics / Jun ware | `0.2.0` |
-| `jianzhan-yaobian` | Jian Ware Yaobian | Ceramics / Jian ware | `0.2.0` |
-| `qianlong-enamel` | Qianlong Enamel | Ceramics / Qianlong enamel | `0.2.0` |
-| `ming-forbidden-city` | Ming Forbidden City | Architecture / Palace / Ming | `0.2.0` |
-| `tiantan-qinian` | Temple of Heaven Qinian | Architecture / Ritual / Temple of Heaven | `0.2.0` |
-| `palace-caisson` | Palace Caisson | Architecture / Palace / Caisson | `0.2.0` |
-| `tang-timber-architecture` | Tang Timber Architecture | Architecture / Timber / Tang | `0.2.0` |
-| `song-dougong` | Song-Style Dougong | Architecture / Timber / Song | `0.2.0` |
-| `huizhou-architecture` | Huizhou Architecture | Architecture / Regional / Huizhou | `0.2.0` |
-| `dunhuang-caves` | Dunhuang Caves | Art / Mural / Dunhuang | `0.2.0` |
-| `minnan-red-brick` | Minnan Red Brick Architecture | Architecture / Regional / Minnan | `0.2.0` |
+| `ruyao-blue-slide-design` | Ruyao Sky Blue | Ceramics / Ruyao | `2.7.0` |
+| `guan-ice-crackle` | Guan Ware Ice Crackle | Ceramics / Guan ware | `0.2.1` |
+| `junyao-kiln-transformation` | Jun Ware Kiln Transformation | Ceramics / Jun ware | `0.2.1` |
+| `jianzhan-yaobian` | Jian Ware Yaobian | Ceramics / Jian ware | `2.1.0` |
+| `qianlong-enamel` | Qianlong Enamel | Ceramics / Qianlong enamel | `0.2.1` |
+| `ming-forbidden-city` | Ming Forbidden City | Architecture / Palace / Ming | `2.5.0` |
+| `tiantan-qinian` | Temple of Heaven Qinian | Architecture / Ritual / Temple of Heaven | `2.1.0` |
+| `palace-caisson` | Palace Caisson | Architecture / Palace / Caisson | `0.2.1` |
+| `tang-timber-architecture` | Tang Timber Architecture | Architecture / Timber / Tang | `2.2.0` |
+| `song-dougong` | Song-Style Dougong | Architecture / Timber / Song | `0.2.1` |
+| `huizhou-architecture` | Huizhou Architecture | Architecture / Regional / Huizhou | `0.2.1` |
+| `dunhuang-caves` | Dunhuang Caves | Art / Mural / Dunhuang | `0.2.1` |
+| `minnan-red-brick` | Minnan Red Brick Architecture | Architecture / Regional / Minnan | `0.2.1` |
 
 Workflow: `chinese-style-skill-workflow` (research, design proposal, five previews, human review, bilingual implementation).
 

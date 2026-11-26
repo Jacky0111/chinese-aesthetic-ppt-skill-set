@@ -27,7 +27,7 @@ Every `SKILL.md` must keep the same "Multilingual output" section as the existin
 
 ## Versioning
 
-Follow Semantic Versioning: breaking changes (skill IDs, layout, invocation) raise the major version, or the minor version during 0.x; compatible new styles or capabilities raise the minor version; fixes raise the patch version. Update `VERSION`, `catalog/`, the README header and version tables, and `CHANGELOG.md` together. Skill versions currently match the collection version.
+Follow Semantic Versioning: breaking changes (skill IDs, layout, invocation) raise the major version, or the minor version during 0.x; compatible new styles or capabilities raise the minor version; fixes raise the patch version. Update `VERSION`, `catalog/`, the README header and version tables, and `CHANGELOG.md` together. Each skill keeps its own version in `catalog/`, which may differ from the collection version (`VERSION`); the README table must match `catalog/`.
 
 ## Bilingual maintenance
 
