@@ -11,3 +11,5 @@ Paths are relative to this skill folder. These `imagegen` outputs are modern pre
 | `examples/05-ending.png` | Ending | Closing-page example | Newly generated with `imagegen` to complete the confirmed Guan direction | Observe crackle texture in a closing role; composition remains flexible |
 
 Historical sources are listed in [`references/sources.md`](../references/sources.md). Copy in an image is not itself a source for historical claims.
+
+**Revision note (2026-11-26):** `assets/examples/03-history-timeline.png`, `assets/examples/04-powder-celadon.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

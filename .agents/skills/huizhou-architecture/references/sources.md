@@ -16,3 +16,11 @@
 ## Use principles
 
 Integrate space and material into the slide's information system rather than adding them as isolated roof illustrations. When the user's content discusses a particular building, courtyard, or carving craft, relevant forms may be shown purposefully with attribution. Otherwise, favor abstract volume, layering, boundaries, light, and whitespace. Do not use example images as historical evidence.
+
+## Sources for text in example slides (checked 2026-11-26)
+
+These pages were read through web retrieval tools. News and republished items are weaker evidence than collection records or scholarship; verify before formal citation.
+
+- [National Cultural Heritage Administration: Xidi and Hongcun](http://www.ncha.gov.cn/art/2024/8/8/art_2791_190651.html) — Preserves 14th–20th-century village character; returning officials and merchants built the villages; lineage settlement within a landscape setting. The range is not a founding date.
+- [Xinhuanet: report on Hongcun](http://www.news.cn/local/20240809/a23ed0945ddf48cd86cd4f6cb3079dc2/c.html) — News report on streets and waterways; channel details apply to Hongcun.
+- [China Intangible Cultural Heritage website: Huizhou Three Carvings](https://www.ihchina.cn/news_1_details/10947.html) — A republished report dates the origin to the Song and the peak to the Ming and Qing; the register traces the Wuyuan branch to the Tang.

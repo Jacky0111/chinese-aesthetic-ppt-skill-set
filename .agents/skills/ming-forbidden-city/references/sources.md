@@ -16,3 +16,10 @@
 ## Use principle
 
 Extract color relationships, material, light, spatial layers, and rhythm from the architectural setting. Do not add eaves, dougong brackets, dragons, or other ornaments merely because they appear on historical buildings. Use literal forms only when the content discusses them and their depiction aids understanding; cite the source and date range.
+
+## Sources for text in example slides (checked 2026-11-26)
+
+These pages were read through web retrieval tools. News and republished items are weaker evidence than collection records or scholarship; verify before formal citation.
+
+- [Capital Museum: "1420: From Nanjing to Beijing"](https://capitalmuseum.org.cn/exhibition/5fa1658c7a394b6ab12aa0ca3a92f636) — New Year audience in Fengtian Hall in 1421.
+- [People’s Daily Online: why the Yongle Emperor moved the capital](http://paper.people.com.cn/rmzk/html/2024-03/18/content_26048293.htm) — Formal move in the first month of 1421; the Palace Museum Yongle page agrees.

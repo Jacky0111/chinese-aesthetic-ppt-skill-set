@@ -13,3 +13,5 @@ These five slide examples were generated with `imagegen` and approved by the use
 When invoking the skill, extract color relationships, material grain, pigment transitions, light, and information rhythm only. Do not directly depict Buddha figures, apsaras, lotus flowers, Buddhist symbols, complete murals, cave exteriors, cave entrances, earthen forts, or fortress-like architecture. Express these ideas through abstract color, space, and layout unless the user explicitly requests a literal subject.
 
 **Asset status:** AI-generated from text prompts with no reference images (creator declaration), released under CC BY 4.0; catalog status `cleared`. This does not mean that text inside the images has been fact-checked; see `KNOWN-ISSUES.md` at the repository root.
+
+**Revision note (2026-11-26):** `assets/examples/01-cover.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

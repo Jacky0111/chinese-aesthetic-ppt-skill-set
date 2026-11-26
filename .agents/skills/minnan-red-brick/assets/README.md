@@ -11,3 +11,5 @@ These five `imagegen` examples were approved by the user to help interpret the f
 | `examples/05-ending.png` | Ending; close with brick red, swallowtail-gray curves, and regional memory | Generated with `imagegen`; direction approved by the user | Extract the closing rhythm; do not copy wording or the full layout |
 
 Color balance, texture, and curves are modern design interpretations, not reconstructions of historical appearance or universal construction rules. **Asset status:** AI-generated from text prompts with no reference images (creator declaration), released under CC BY 4.0; catalog status `cleared`. This does not mean that text inside the images has been fact-checked; see `KNOWN-ISSUES.md` at the repository root.
+
+**Revision note (2026-11-26):** `assets/examples/02-history.png`, `assets/examples/04-space.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

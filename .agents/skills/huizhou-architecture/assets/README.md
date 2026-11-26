@@ -13,3 +13,5 @@ These five examples were generated with `imagegen` and approved by the user for 
 All images are modern design examples. Physical volume, foreground/middle/background relationships, perspective, partial occlusion, contact shadow, and edge light convey spatial atmosphere; they are not precise architectural forms or measured documentation. When invoking this skill, extract material, tonal depth, spatial relationships, and hierarchy only. Do not copy the complete layouts.
 
 **Asset status:** AI-generated from text prompts with no reference images (creator declaration), released under CC BY 4.0; catalog status `cleared`. This does not mean that text inside the images has been fact-checked; see `KNOWN-ISSUES.md` at the repository root.
+
+**Revision note (2026-11-26):** `assets/examples/02-village-history.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

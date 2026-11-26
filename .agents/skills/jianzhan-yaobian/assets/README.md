@@ -11,3 +11,5 @@ All paths are relative to this skill folder. These five user-approved images are
 | `examples/05-ending.png` | Ending | Closing page | Same | Observe how dark space and iridescence create closure; do not copy the composition |
 
 Consult only the examples relevant to the task. Do not copy full layouts, wording, or glow placement; actual pages must follow the content and remain readable.
+
+**Revision note (2026-11-26):** `assets/examples/02-song-tea-culture.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

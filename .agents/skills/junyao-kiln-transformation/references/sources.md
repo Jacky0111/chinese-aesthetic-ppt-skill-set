@@ -16,3 +16,10 @@ Flowing screen gradients, soft light, purple-red accents, and deep-violet focal 
 - [Palace Museum: Jun ware sky-blue bowl with purple-red patches](https://www.dpm.org.cn/collection/ceramic/227947.html)
 - [Palace Museum: Jun ware academic symposium review](https://www.dpm.org.cn/journal/247025.html)
 - [Palace Museum: Rose-purple glaze](https://www.dpm.org.cn/lemmas/239385.html)
+
+## Sources for text in example slides (checked 2026-11-26)
+
+These pages were read through web retrieval tools. News and republished items are weaker evidence than collection records or scholarship; verify before formal citation.
+
+- [The Palace Museum: Jun ware sky-blue transmutation-glaze bowl](https://www.dpm.org.cn/collection/ceramic/227954.html) — Kiln transmutation began as a natural change and was later used deliberately as decoration.
+- [The Palace Museum: Jun ware dish with purple-red splashes](https://www.dpm.org.cn/collection/ceramic/227934.html) — Iron and copper produce reddish blues and purple splashes; this piece is dated "Jin?", and Jun ware dating is debated.

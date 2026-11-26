@@ -16,3 +16,10 @@
 ## Design use
 
 Integrate fired-clay texture, staggered/interwoven relationships, swallowtail curves, brick-stone boundaries, and spatial light into page backgrounds, information fields, charts, and components. Unless the input discusses a specific building or component, do not show a complete Minnan house, wall, roof, or literal traditional motif. Do not mistake loose bricks, material callouts, or component illustrations for full-page design language.
+
+## Sources for text in example slides (checked 2026-11-26)
+
+These pages were read through web retrieval tools. News and republished items are weaker evidence than collection records or scholarship; verify before formal citation.
+
+- [People’s Daily, 23 July 2025: cooling wisdom of Minnan houses](https://paper.people.com.cn/rmrb/pc/content/202507/23/content_30089812.html) — A scholar notes that brick pores absorb moisture and open halls aid ventilation; case-specific expert commentary.
+- [Fujian Daily: wisdom in Minnan red-brick houses](https://www.fjdaily.com/app/content/2026-02/02/content_3772914.html) — The courtyard well is central to light and ventilation.

@@ -11,3 +11,5 @@ These `imagegen` outputs are modern slide-design examples, not artifact images o
 | `examples/05-ending.png` | Ending | Closing-page example | Newly generated with `imagegen` to complete the confirmed Jun direction | Observe flowing color layers in a closing role; composition remains flexible |
 
 Historical sources and interpretation boundaries are listed in [`references/sources.md`](../references/sources.md). Verify copy against a source; the image itself is not evidence.
+
+**Revision note (2026-11-26):** `assets/examples/04-kiln-story.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

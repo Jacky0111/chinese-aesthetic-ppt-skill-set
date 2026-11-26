@@ -14,9 +14,15 @@ Sapphire, cinnabar, gilt, and Han-white/marble tones form a contemporary present
 ## Sources
 
 1. [Beijing Municipal Cultural Heritage Bureau: Temple of Heaven](https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1737418/1738088/1742735/364353/index.html) — history and architectural information.
-2. [Beijing Municipal Cultural Heritage Bureau: “Gates in Traditional Chinese Ritual Architecture,” Temple of Heaven section (PDF)](https://wwj.beijing.gov.cn/bjww/resource/cms/article/362762/515628/2018052316192538218.pdf) — context on ritual architecture.
-3. [Beijing Municipal Parks Administration: The Main Building of the Temple of Heaven — Hall of Prayer for Good Harvests](https://gygl.beijing.gov.cn/whgy/whgy_wsgc/201912/t20191206_885633.html) — history, function, and form.
-4. [Beijing Municipal Parks Administration: Hall of Prayer for Good Harvests](https://gygl.beijing.gov.cn/mlgy/mlgy_gyjg01/201912/t20191211_1048233.html) — architecture and ritual introduction.
-5. [UNESCO: Temple of Heaven: an Imperial Sacrificial Altar in Beijing](https://whc.unesco.org/en/list/881/) — heritage value and cosmological concepts.
+2. [Beijing Municipal Parks Administration: The Main Building of the Temple of Heaven — Hall of Prayer for Good Harvests](https://gygl.beijing.gov.cn/whgy/whgy_wsgc/201912/t20191206_885633.html) — history, function, and form.
+3. [Beijing Municipal Parks Administration: Hall of Prayer for Good Harvests](https://gygl.beijing.gov.cn/mlgy/mlgy_gyjg01/201912/t20191211_1048233.html) — architecture and ritual introduction.
+4. [UNESCO: Temple of Heaven: an Imperial Sacrificial Altar in Beijing](https://whc.unesco.org/en/list/881/) — heritage value and cosmological concepts.
 
 Use these institutional sources for dates and historical claims. The visual examples are modern design studies, not historical evidence.
+
+## Sources for text in example slides (checked 2026-11-26)
+
+These pages were read through web retrieval tools. News and republished items are weaker evidence than collection records or scholarship; verify before formal citation.
+
+- [Beijing Municipal Government: Temple of Heaven feature](https://www.beijing.gov.cn/shipin/qushuobeijing/19513.html) — Burned in 1889; rebuilding ordered the next year; the rebuilt hall differs slightly from the original.
+- [The Beijing News: Hall of Prayer for Good Harvests](https://m.bjnews.com.cn/detail/163029107414385.html) — Book excerpt: rebuilding the following year, completed in 1896.

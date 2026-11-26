@@ -13,3 +13,5 @@ These five images are modern presentation design examples generated with `imageg
 Use these images only to calibrate color, glazed sheen, cinnabar layers, restrained gilt, marble-like negative space, and overall mood. Never turn a full example composition, background, wording, or element placement into a default layout.
 
 **Asset status:** AI-generated from text prompts with no reference images (creator declaration), released under CC BY 4.0; catalog status `cleared`. This does not mean that text inside the images has been fact-checked; see `KNOWN-ISSUES.md` at the repository root.
+
+**Revision note (2026-11-26):** `assets/examples/02-history-timeline.png` were revised with `imagegen` using existing images from this repository as input, so the "no reference images" statement above does not apply to these revised versions.

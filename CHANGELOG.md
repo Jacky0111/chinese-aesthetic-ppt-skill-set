@@ -2,6 +2,15 @@
 
 Versions follow [Semantic Versioning](https://semver.org/). Interfaces may still change during 0.x. The Chinese and English repositories share one version.
 
+## [0.2.2] - 2026-11-26
+
+### Fixed
+
+- Addressed all 20 items in `KNOWN-ISSUES.md`: revised 15 example images and recorded sources for the rest.
+- Rewrote statements that went beyond the sources (Guan ware, Jun ware, Huizhou villages, Minnan courtyards, Temple of Heaven rebuilding, Foguang Temple) and removed unverifiable footnotes and a report title.
+- Removed the map from the Ruyao site slide, added a distinct ending slide, and removed a dead Temple of Heaven source link.
+- Versions: `ruyao-blue-slide-design` `2.7.1`, `guan-ice-crackle` `0.2.2`, `junyao-kiln-transformation` `0.2.2`, `jianzhan-yaobian` `2.1.1`, `ming-forbidden-city` `2.5.1`, `tiantan-qinian` `2.1.1`, `palace-caisson` `0.2.2`, `tang-timber-architecture` `2.2.1`, `song-dougong` `0.2.2`, `huizhou-architecture` `0.2.2`, `dunhuang-caves` `0.2.2`, `minnan-red-brick` `0.2.2`.
+
 ## [0.2.1] - 2026-11-26
 
 ### Changed
